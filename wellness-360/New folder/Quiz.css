@@ -1,0 +1,401 @@
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+span{
+    color:white;
+    font-size:13px;
+}
+
+
+
+.submit{
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  color: black;
+  margin-left:10px;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+
+body {
+    overflow-x: hidden;
+    font-family:'Lucida Grande', sans-serif;
+    background-image: url("images/wellness.jpg");
+    
+    background-size:cover;
+    background-attachment: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+/*.icon-bar {
+  position: fixed;
+  right:0;
+  top: 40%;
+
+  
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+.navbar {
+
+  overflow: hidden;
+  background-color:transparent;
+  padding:10px;
+  padding-bottom:20px;
+   text-align: center;
+  display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.navbar a:hover{
+    background-color:#655478;
+    border-radius:18px;
+}
+.navbar a.active {
+background-color:#655478;
+border-radius:18px;
+} */
+
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+    background-color: #beb4cb;
+  border-radius:18px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  padding: 14px 16px;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+*/
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.content {
+  padding:1px 0 0 0;
+  position:relative;
+}
+
+
+.student{
+text-align: center;
+vertical-align: middle;
+line-height: 50px;
+font-size:25px;
+color:white;
+}
+
+
+
+.slideshow-container{
+padding-bottom:20px;
+}
+
+
+.grid {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+   background-color:rgba(255,255,255,0.6); 
+   background-repeat: no-repeat;
+    padding: 150px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    border-radius:12px;
+    
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color:#402966 ;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius:12px;
+    
+}
+
+
+#score {
+    color: #402966;
+    text-align: center;
+    font-size: 30px;
+    border-radius:10px;
+}
+
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #402966;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #402966;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    border-radius:12px;
+}
+
+#start:hover, #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: rgb(131, 66, 237);
+}
+
+#start:focus, #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#start{
+  background-color: #402966;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 30px 40px 10px 40px;
+    padding: 10px 10px;
+    border-radius:12px;
+}
+
+#timer-label, #timer-label-2, #timer, #progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+
+/*asasa*/
+.foot{
+	background-color:#6B6F73;
+	height:250px;
+  
+	}
+	
+
+h3{
+	font-size:40px;
+	margin:20px;
+	padding:30px;
+	color:white
+	}
+
+
+.button1{
+    position: relative;
+	  top:30px;
+    width: 200px;
+    height: 50px;
+	left:55px;
+	border-radius: 25px;
+	background-color: transparent;
+	font-size:20px;
+	border-width:5px
+    }
+	
+
+.button1:hover{
+	box-shadow: 0 0 10px 0 white inset, 0 0 20px 2px white;
+	border: 3px solid black;
+	}
+
+
+.button2{
+	position:relative;
+	bottom:30px;
+	right:150px;
+	width: 200px;
+  height: 50px;
+	border-radius: 25px;
+	background-color: transparent;
+	font-size:20px;
+	border-width:5px
+	}
+	
+		
+.button2:hover{
+	box-shadow: 0 0 10px 0 white inset, 0 0 20px 2px white;
+	border: 3px solid black;
+	}
+
+
+.socialMedia{
+	width:40px;
+	height:40px;
+	margin-left:20px;
+	margin-right:20px;
+	}
+	
+	
+.socialMedia:hover{transform: scale(1.1)}
+		
+		
+#contact{
+	position:relative;
+	left:800px;
+	bottom:300px;
+  
+	}
+
+	
+	
+.letter{font-size:20px}
+
+
+#contact h2{
+	padding-left:60px;
+	font-size:40px
+
+	}
+
+
+.details{
+	width:40px;
+	height:40px;
+  color:black
+	}
+		
+		
+#details{
+	position:relative;
+	left:400px;
+	bottom:170px;
+  color:black;
+	}
+
+
+#button3{
+	position:relative;
+	top:80px;
+	right:230px;
+	width:150px;
+	height:50px;
+	border-radius:30px;
+	font-size:20px;
+	background-color:white;
+	border-bottom-color:black;
+	border-width:5px
+	}
+			
+
+#button3:hover{ transform: scale(1.2)}
+body {background-color: gray;}

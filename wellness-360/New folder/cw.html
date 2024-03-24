@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+    <head><title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+
+        <!--    local styles-->
+        <link rel="stylesheet" type="text/css" href="Quiz.css">
+        <link rel="stylesheet" type="text/css" href="ExternalStyleSheet.css">
+		<link rel="stylesheet"   href="navi1.css" type="text/css">
+        <!-- global styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+               
+         
+             
+             <script>
+
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+            </script>
+
+    </head>
+    
+<body>
+
+<nav id="navigationBar">
+	<img class="logo" src="images/logo.png" alt="logo" >
+	<ul>
+		<li><a class="navibarli" href="#">Home</a></li>
+		<li><a class="navibarli" href="#">Shop</a></li>
+		<li><a class="navibarli" href="#">Quiz</a></li>
+		<li><a class="navibarli" href="studnt.html">About us</a></li>
+	</ul>
+</nav>
+
+
+
+ <div id="abc"></div>>
+<div class="content">
+
+ <div class="slideshow-container">
+
+    <div class="grid fade">
+        <center><img src="images/quiz1.jpg" style="width:50%" ></center> 
+        
+        <div class='start-container slide-container'>
+            <center><button id="start">START</button></center>
+        </div>
+        
+        <hr style="margin-top: 25px">        
+        <footer>
+            <center><p id="timer-label" class='label'>Timer</p></center>
+        </footer>
+    </div>      
+    <div class="grid fade">
+        <div id="quiz">
+            <h1>Quiz Time</h1>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+            <hr style="margin-top: 50px">
+            <footer><center>
+                <p id="progress">Question x of y</p>
+                <p id="timer-label-2" class='label'>Timer</p></center>
+            </footer>
+        </div>
+    </div>
+    <div class="grid fade">
+        <div class='score-container'>
+            <p class='label'>SCORE</p>
+            <p id="score" class='main'></p>
+            <p id="answers" class='label'>Answer</p>            
+        </div>
+        <hr style="margin-top: 50px">
+   
+    </div>
+    
+    <!--local js-->  
+<script src="question.js"></script> 
+
+
+
+
+
+</div>
+  </div>
+  <script>
+    window.addEventListener('scroll', function() {
+    const nav = document.querySelector('nav');
+    const navHeight = nav.offsetHeight;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > navHeight) {
+        nav.classList.add('scrolled', 'nav-background');
+    } else {
+        nav.classList.remove('scrolled', 'nav-background');
+    }
+});
+
+</script>
+
+
+<!--FOOTER PART-->
+<footer>
+
+    <div class="foot">
+      <h3>WELLNESS360°</h3>
+  
+      <button class="button1" onclick="document.location='#abc'">Back to Top  </button>
+      <button class="button2" onclick="document.location='feedback form/fead.html'">Any Feedback  </button>
+  
+  
+      <div id="details">
+  
+          <p class="letter"><img src="images/location.png" class="details" alt="location image" >horna road,colombo</p><br>
+          <p class="letter"><img src="images/mail.png" class="details" alt="mail image">wellness360@gmail.com</p><br>
+          <p class="letter"><img src="images/tel.png" class="details" alt="tel image">034-226754</p>
+  
+      </div>
+  
+  
+      <div id="contact">
+          <h2 >Contact Us</h2><br>
+          <a href="https://www.facebook.com/"><img src="images/fb.png" class="socialMedia" alt="fb image"></a>
+          <a href="https://www.instagram.com/"><img src="images/ins.png" class="socialMedia" alt="ins image"></a>
+          <a href="https://twitter.com/?lang=en"><img src="images/tw.png" class="socialMedia" alt="tw image"></a>
+          <a href="https://www.whatsapp.com/"><img src="images/wp.png" class="socialMedia" alt="wp image"></a>
+  
+  
+      <button id="button3" onclick="document.location='edit.html'">Page Editor</button>
+  
+      </div>
+  </div>
+  </footer>
+  
+
+    </body>
+</html>
+    

@@ -1,0 +1,58 @@
+/*NAVIGATIONBAR EXTERNAL CSS*/
+
+#navigationBar{ 
+	position:fixed;
+	top:-135px;
+	left:-10px;
+	width:105%;
+	}
+	
+
+ul{
+	list-style-type:none;
+	padding-bottom:40px;
+	padding-top:40px; 
+	padding-left:250px;
+	padding-right:0px;
+	background-color:black;
+	}
+	
+	
+.navibarli{
+	text-decoration: none;
+	padding-right:55px;
+	padding-left:100px;
+	font-size:30px;
+	color:white;
+	}
+	
+	
+.navibarli:visited{color:white;}
+
+.navibarli:hover{color:gray;}
+
+.logo{
+	height:114px;
+	width:140px;
+	position:relative;
+	top:134px;
+	}
+
+
+ ul li a,
+ ul li a:after,
+ ul li a:before {
+  transition: all .9s;}
+
+
+ul li{
+	display: inline-block;
+	}
+
+
+#navigationBar li:hover {
+	color: #111;
+	transform: scale(1.7);
+	text-shadow: none;
+	}
+

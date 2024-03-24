@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    opacity: 0.6;
+
+}
+
+.mainlogo{
+    opacity: 0.6;
+}
+
+nav{
+    width: 100%;
+    flex: 1;
+    text-align: right;
+    top: 0;
+    left: 0;
+    padding: 0px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav-background.scrolled {
+    background-color: rgb(1, 3, 4);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+  
+
+nav a:hover{
+    background-color:rgb(131, 105, 56);
+    border-radius:18px;
+    padding: 12px 12px;
+
+}
+
+nav a.active{
+    background: color rgb(150, 127, 84);
+    border-radius:18px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content:hover {
+    background-color:rgb(150, 127, 84);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(150, 127, 84);
+    border-radius:15px;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    padding: 14px 16px;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color:white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/*footer*/
+.footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    bottom: 0;
+    position: relative;
+
+}
+
+.footer h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    color: #7a7a7a;
+    font-weight: 100;
+    align-items: center;
+    padding-bottom: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer-text h1{
+    font-family: 'Poppins', sans-serif;
+
+}
+.footer-row {
+    float: left;
+    height: 250px;
+}
+.footer-main:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.footer-left {
+    width: 29%;
+    margin-top: 15px;
+    border-right:1px solid #7a7a7a ;
+    height: 270px;
+
+}
+.footer-right {
+    width: 30%;
+    margin-top: 15px;
+}
+.footer-middle-right {
+    width: 15%;
+    margin: 50px 0 0 100px;
+}
+.footer-middle {
+    width: 16%;
+    margin: 15px 0 0 20px;
+    background: #131515;
+
+}
+.footer-middle p {
+    font-size: 0.8vw;
+}
+.footer-left {
+    background: #131515;
+    text-align: right;
+    padding-right: 10px;
+
+}
+.footer-right {
+    background: #131515;
+}
+.footer-main {
+    background: #131515;
+}
+.footer-text {
+    /* width: 70%; */
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.footer-text h1,p, h2{
+    color: #000000;
+}
+.footer-right-line {
+    border-top: 1px solid #7a7a7a;
+    width: 80px;
+    padding: 10px;
+
+}
+
+.links:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.icons {
+    float: left;
+    padding-right: 10px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #7a7a7a;
+    color: white;
+}
+
+.fa-twitter {
+    background: #7a7a7a;
+    color: white;
+}
+
+.fa-google {
+    background: #7a7a7a;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #7a7a7a;
+    color: white;
+}
+.button {
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #131515;
+    color: #7a7a7a;
+    border: 1px solid #7a7a7a;
+    /* -webkit-border-radius: 20px;
+    -moz-border-radius: 20px; */
+    border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
+}
+.button:hover {
+    color: #ffffff;
+    border:1px solid #ffffff;
+}
